@@ -1,7 +1,11 @@
 document.getElementById("botaoEnviar").addEventListener("click",validaFormulario)
 
+var nome=document.getElementById("nome")
+var email=ocument.getElementById("email")
+var telefone=document.getElementById("telefone")
+
 function validaFormulario(){
-  if(document.getElementById("nome").value != "" && document.getElementById("email").value != "" && document.getElementById("telefone").value != ""){
+  if(nome.value != "" && email.value != "" && telefone.value != ""){
 
     alert("Prontinho! Você receberá as novidades por email.")
 

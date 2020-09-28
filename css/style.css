@@ -94,3 +94,7 @@ button{
   padding: 2px 20px;
   background-color: #41f341;
 }
+
+a:hover {
+  color: #FF00FF;
+}
